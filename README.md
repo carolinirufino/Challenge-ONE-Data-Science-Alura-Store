@@ -1,42 +1,41 @@
-# 🛒 Desafio Alura Store - Análise de Dados com Python
 
-Este projeto faz parte do curso **"Python: Primeiros Passos para a Data Science"** da Alura. Nele, fui desafiada a ajudar o Senhor João, dono da rede de lojas Alura Store, a tomar uma decisão estratégica: **qual das suas quatro lojas deve ser vendida** para que ele possa investir em um novo negócio.
+# Análise de Desempenho das Lojas - AluraStoreBr
 
-## 🔍 Objetivo
+Este projeto faz parte do **Alura Store Challenge** do curso **Praticando Python para Data Science**. O objetivo é analisar o desempenho de quatro lojas com base em métricas como faturamento, avaliações dos clientes, frete médio, categorias de produtos e recomendação de qual loja deve ser vendida.
 
-Analisar os dados de vendas, desempenho e avaliações das lojas, com o intuito de **identificar a loja menos eficiente** e recomendar qual delas deve ser vendida.
+## Descrição
 
-## 📊 O que foi analisado
+No notebook `AluraStoreBr.ipynb`, realizamos a análise de dados para as lojas, abordando:
 
 - Faturamento total por loja
-- Média de avaliação dos clientes
-- Categorias mais vendidas
-- Produtos mais e menos vendidos
-- Custo médio do frete
+- Avaliação média dos clientes
+- Frete médio por loja
+- Categorias e produtos mais vendidos
+- Visualização de dados com gráficos (barras, pizza, etc.)
 
-## 📈 Ferramentas utilizadas
+## Como Rodar
 
-- **Python** 🐍
-- **Google Colab** ☁️
-- **Pandas** para manipulação dos dados
-- **Matplotlib** para visualização gráfica
-- **Markdown** para apresentação dos resultados
+1. Clone o repositório:
 
-## 📉 Visualizações geradas
+   ```bash
+   git clone https://github.com/seu-usuario/seu-repositorio.git
+   ```
 
-- Gráfico de barras com faturamento por loja
-- Gráfico de pizza com categorias mais vendidas
-- Gráfico de dispersão (scatter plot) com relação entre preço e avaliação
+2. Execute o código no Jupyter Notebook:
 
-## 🧠 Conclusão
+   ```bash
+   jupyter notebook
+   ```
 
-Após a análise dos dados, foi possível concluir com base em evidências claras qual loja apresenta os piores indicadores e, portanto, deve ser vendida. O relatório final com os detalhes da recomendação está disponível no notebook deste repositório.
+3. Abra o arquivo `AluraStoreBr.ipynb` e execute as células para ver a análise.
 
-## 🗂️ Estrutura do Projeto
+## Tecnologias Utilizadas
 
-📁 alura-store-desafio/ │ ├── README.md ├── loja1.csv ├── loja2.csv ├── loja3.csv ├── loja4.csv ├── alura_store_analysis.ipynb
+- **Python 3.x**
+- **Pandas**: Para manipulação de dados.
+- **Matplotlib**: Para criação de gráficos.
 
+## Conclusão
 
-## 👩‍💻 Por Carolini
+A análise sugere que a **Loja 4** tem o pior desempenho geral e deve ser vendida. Isso permitirá ao Senhor João focar nas lojas com maior potencial de crescimento, como a **Loja 1** e a **Loja 3**.
 
-💡 Estudante de Data Science | Apaixonada por análise de dados | Transformando números em decisões.
